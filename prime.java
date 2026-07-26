@@ -4,11 +4,11 @@ public class prime {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = in.nextInt();
-        if(n<=1) {
+        if(n <= 1) {
             System.out.print(n + " is not a prime number");
         }
         for(int i = 2;i<n;){
-            if(n%i == 0){
+            if(n % i == 0){
                 System.out.println(n + " is not a prime number");
                 break;
             }
