@@ -12,6 +12,6 @@ public class reverseAnArray {
         int[] arr = {1, 2, 3, 4, 5, 6};
         int l = arr.length;
         reverseAnArray rev = new reverseAnArray();
-        System.out.print(Arrays.toString(rev.reverse(arr, l)));
+        System.out.println(Arrays.toString(rev.reverse(arr, l)));
     }
 }
