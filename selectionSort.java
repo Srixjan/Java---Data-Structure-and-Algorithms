@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 public class selectionSort {
     public int[] selectSort(int[] nums) {
         for (int i = 0; i < nums.length-1;i++) {
