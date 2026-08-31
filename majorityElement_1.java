@@ -1,4 +1,4 @@
-public class marjorityElement_1 {
+public class majorityElement_1 {
     public int majorityElement(int[] nums) {
         int n = nums.length;
         int el = 0;
@@ -28,7 +28,7 @@ public class marjorityElement_1 {
     }
 
     public static void main(String[] args) {
-        marjorityElement_1 maj = new marjorityElement_1();
+        majorityElement_1 maj = new majorityElement_1();
         int[] arr = {7, 0, 0, 1, 7, 7, 2, 7, 7};
         int ans = maj.majorityElement(arr);
         System.out.print(ans);
