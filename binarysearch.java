@@ -11,7 +11,7 @@ public class binarysearch {
             if (numbers[mid] == key) {
                 return mid;
             }
-            if (numbers[mid] < key) {
+            else if(numbers[mid] < key) {
                 start = mid + 1;
             } else
                 end = mid - 1;
@@ -31,5 +31,6 @@ public class binarysearch {
         int key = sc.nextInt();
 
         System.out.println("Index for the key is : " + BinarySearch(numbers, key));
+        sc.close();
     }
 }
