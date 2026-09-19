@@ -1,5 +1,5 @@
 import java.util.*;
-public class aggressiveCows{
+public class aggressiveCows {
     public int aggCows(int[] nums, int k) {
         int n = nums.length;
         Arrays.sort(nums);
