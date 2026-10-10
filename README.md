@@ -1,75 +1,495 @@
-# My Java DSA practice
+# TUF A2Z DSA checklist
 
-This is my working folder for learning Java and practicing data structures and algorithms. The files are standalone exercises in the repository root; there is no single application or build system.
+**121 / 450 done · 329 left**
 
-## Run a solution
+Checked means a matching Java source file is present in this folder.
 
-From this folder, compile and run one file at a time:
+## Beginner Problems
+- [ ] Pattern 1
+- [ ] Pattern 2
+- [ ] Pattern 3
+- [ ] Pattern 4
+- [ ] Pattern 5
+- [ ] Pattern 6
+- [ ] Pattern 7
+- [ ] Pattern 8
+- [ ] Pattern 9
+- [ ] Pattern 10
+- [ ] Pattern 11
+- [ ] Pattern 12
+- [ ] Pattern 13
+- [x] Pattern 14
+- [x] Pattern 15
+- [x] Pattern 16
+- [x] Pattern 17
+- [x] Pattern 18
+- [x] Pattern 19
+- [x] Pattern 20
+- [x] Pattern 21
+- [ ] Pattern 22
+- [x] Count All Digits of a Number
+- [x] Count Number of Odd Digits in a Number
+- [ ] Reverse a Number
+- [ ] Palindrome Number
+- [ ] Return the Largest Digit in a Number
+- [x] Factorial of a Given Number I
+- [x] Check If a Number Is an Armstrong Number
+- [x] Check for Perfect Number
+- [x] Check for Prime Number
+- [ ] Count of Prime Numbers Till N
+- [x] GCD of Two Numbers
+- [x] LCM of Two Numbers
+- [x] Divisors of a Number
+- [x] Sum of Array Elements
+- [x] Count of Odd Numbers in Array
+- [x] Check If the Array Is Sorted I
+- [x] Reverse an Array
+- [x] Highest Occurring Element in an Array
+- [x] Second Highest Occurring Element
+- [x] Sum of Highest and Lowest Frequency
+- [x] Reverse a String II
+- [x] Palindrome Check
+- [x] Largest Odd Number in a String
+- [x] Longest Common Prefix
+- [x] Isomorphic String
+- [x] Rotate String
+- [ ] Valid Anagram
+- [ ] Sort Characters by Frequency
+- [x] Sum of First N Numbers
+- [x] Factorial of a Given Number II
+- [ ] Sum of Array Elements II
+- [ ] Reverse a String I
+- [x] Check If String Is Palindrome Or Not
+- [x] Check If a Number Is Prime Or Not
+- [x] Reverse an Array II
+- [x] Check If the Array Is Sorted II
+- [x] Sum of Digits in a Given Number
+- [ ] Fibonacci Number
 
-```powershell
-javac .\twoSum.java
-java twoSum
-```
+## Sorting
+- [x] Selection Sort
+- [x] Bubble Sort
+- [x] Insertion Sorting
+- [x] Merge Sorting
+- [x] Quick Sorting
+- [ ] Recursive Bubble Sort
+- [ ] Recursive Insertion Sort
 
-Use the class name (not the `.java` filename) with `java`. Some files have a `main` method and sample input; others only have a method intended for a caller or an online judge. If a solution does not run on its own, check for `main` before assuming it is broken.
+## Arrays
+- [x] Linear Search
+- [x] Largest Element
+- [x] Second Largest Element
+- [x] Maximum Consecutive Ones
+- [x] Left Rotate Array by One
+- [x] Left Rotate Array
+- [x] Move Zeros to End
+- [x] Remove Duplicates From Sorted Array
+- [x] Find Missing Number
+- [x] Union of Two Sorted Arrays
+- [x] Intersection of Two Sorted Arrays
+- [x] Majority Element I
+- [x] Leaders in an Array
+- [x] Rearrange Array Elements by Sign
+- [x] Print the Matrix in Spiral Manner
+- [x] Pascal's Triangle I
+- [x] Pascal's Triangle II
+- [x] Pascal's Triangle III
+- [x] Rotate Matrix by 90 Degrees
+- [ ] Set Matrix Zeroes
+- [x] Two Sum
+- [x] 3Sum
+- [x] 4Sum
+- [x] Sort an Array of 0s, 1s and 2s
+- [x] Kadane's Algorithm
+- [x] Next Permutation
+- [x] Majority Element II
+- [x] Find the Repeating and Missing Number
+- [x] Count Inversions
+- [x] Reverse Pairs
+- [x] Maximum Product Subarray in an Array
+- [x] Merge Two Sorted Arrays Without Extra Space
 
-## Where to look
+## Hashing
+- [x] Longest Consecutive Sequence in an Array
+- [x] Longest Subarray with Sum K
+- [x] Largest Subarray with Sum 0
+- [ ] Count Subarrays with Given Sum
+- [x] Count Subarrays with Given XOR K
 
-### Start here: Java basics
+## Binary Search
+- [x] Search X in Sorted Array
+- [x] Lower Bound
+- [x] Upper Bound
+- [x] Search Insert Position
+- [x] Floor and Ceil in Sorted Array
+- [x] First and Last Occurrence
+- [x] Search in Rotated Sorted Array I
+- [x] Search in Rotated Sorted Array II
+- [x] Find Minimum in Rotated Sorted Array
+- [x] Find Out How Many Times the Array Is Rotated
+- [x] Single Element in Sorted Array
+- [x] Count Occurrences in a Sorted Array
+- [x] Find Square Root of a Number
+- [x] Find Nth Root of a Number
+- [x] Find the Smallest Divisor
+- [x] Koko Eating Bananas
+- [x] Minimum Days to Make M Bouquets
+- [ ] Capacity to Ship Packages Within D Days
+- [x] Kth Missing Positive Number
+- [ ] Painters Partition
+- [x] Aggressive Cows
+- [x] Book Allocation Problem
+- [x] Find Peak Element
+- [x] Median of Two Sorted Arrays
+- [x] Kth Element of Two Sorted Arrays
+- [ ] Minimise Max Distance to Gas Stations
+- [x] Split Array Largest Sum
+- [ ] Find Row with Maximum 1s
+- [x] Search in a 2D Matrix
+- [x] Search in a 2D Matrix II
+- [x] Find Peak Element II
+- [x] Matrix Median
 
-- Variables and types: [`Variables.java`](./Variables.java), [`types.java`](./types.java)
-- Input, conditions, and loops: [`input.java`](./input.java), [`conditional.java`](./conditional.java), [`switches.java`](./switches.java), [`forloop.java`](./forloop.java), [`loop.java`](./loop.java)
-- Functions and OOP: [`function.java`](./function.java), [`function_overloading.java`](./function_overloading.java), [`OOPS.java`](./OOPS.java)
+## Strings (Basic and Medium)
+- [ ] Remove Outermost Parentheses
+- [ ] Maximum Nesting Depth of the Parentheses
+- [ ] Roman to Integer
+- [ ] String to Integer (atoi)
+- [ ] Count Number of Substrings
+- [ ] Longest Palindromic Substring
+- [ ] Sum of Beauty of All Substrings
 
-### Arrays and common patterns
+## Recursion
+- [ ] Pow(x, n)
+- [ ] Generate Parentheses
+- [ ] Power Set
+- [x] Count Good Numbers
+- [x] Reverse a Stack
+- [x] Check If There Exists a Subsequence with Sum K
+- [x] Count All Subsequences with Sum K
+- [x] Generate Binary Strings Without Consecutive 1s
+- [x] Combination Sum
+- [x] Combination Sum II
+- [x] Subsets I
+- [x] Subsets II
+- [x] Combination Sum III
+- [x] Letter Combinations of a Phone Number
+- [x] Palindrome Partitioning
+- [x] Word Search
+- [x] N-Queens
+- [x] Rat in a Maze
+- [ ] M Coloring Problem
+- [ ] Sudoku Solver
+- [ ] Expression Add Operators
 
-Array basics and traversal: [`array.java`](./array.java), [`largestElement.java`](./largestElement.java), [`secondLargestElement.java`](./secondLargestElement.java), [`linearSearch.java`](./linearSearch.java)
+## Linked List
+- [ ] Traversal in Linked List
+- [ ] Deletion of the Head of Linked List
+- [ ] Deletion of the Tail of Linked List
+- [ ] Deletion of the Kth Element of Linked List
+- [ ] Delete the Element with Value X
+- [ ] Insertion at the Head of Linked List
+- [ ] Insertion at the Tail of Linked List
+- [ ] Insertion at the Kth Position of Linked List
+- [ ] Insertion Before the Value X in Linked List
+- [ ] Find the Length of the Linked List
+- [ ] Search in Linked List
+- [ ] Convert Array to Doubly Linked List
+- [ ] Delete Tail of Doubly Linked List
+- [ ] Delete Kth Element of Doubly Linked List
+- [ ] Remove Given Node in Doubly Linked List
+- [ ] Insert Node Before Head in Doubly Linked List
+- [ ] Insert Node Before Tail in Doubly Linked List
+- [ ] Insert Node Before Kth Node in Doubly Linked List
+- [ ] Insert Before Given Node in Doubly Linked List
+- [ ] Delete Head of Doubly Linked List
+- [ ] Reverse a Doubly Linked List
+- [ ] Add Two Numbers in Linked List
+- [ ] Segregate Odd and Even Nodes in Linked List
+- [ ] Sort a Linked List of 0s, 1s and 2s
+- [ ] Remove Nth Node From the Back of the Linked List
+- [ ] Reverse a Linked List
+- [ ] Add One to a Number Represented by Linked List
+- [ ] Find Middle of Linked List
+- [ ] Delete the Middle Node in Linked List
+- [ ] Check If Linked List Is Palindrome
+- [ ] Find the Intersection Point of Two Linked Lists
+- [ ] Detect a Loop in Linked List
+- [ ] Find the Starting Point in Linked List
+- [ ] Length of Loop in Linked List
+- [ ] Reverse Linked List in Groups of Size K
+- [ ] Rotate a Linked List
+- [ ] Merge Sorted Lists
+- [ ] Flatten a Linked List
+- [ ] Sort a Linked List
+- [ ] Clone a Linked List with Random and Next Pointer
+- [ ] Delete All Occurrences of a Key in Doubly Linked List
+- [ ] Remove Duplicates From Sorted Doubly Linked List
+- [ ] Find Pairs with Given Sum in Doubly Linked List
 
-Two pointers / in-place changes: [`twoSum.java`](./twoSum.java), [`moveZerosToEnd.java`](./moveZerosToEnd.java), [`removeDuplicatesFromSortedArray.java`](./removeDuplicatesFromSortedArray.java), [`leftRotateArrayByKPlaces.java`](./leftRotateArrayByKPlaces.java)
+## Bit Manipulation
+- [ ] Check If the I-th Bit Is Set
+- [ ] Check If a Number Is Odd
+- [ ] Check If a Number Is a Power of 2
+- [ ] Count the Number of Set Bits
+- [ ] Set the Rightmost Unset Bit
+- [ ] Swap Two Numbers
+- [ ] Minimum Bit Flips to Convert Number
+- [ ] Single Number I
+- [ ] Single Number II
+- [ ] Single Number III
+- [ ] Divide Two Numbers Without Multiplication and Division
+- [ ] Power Set with Bit Manipulation
+- [ ] XOR of Numbers in a Given Range
 
-Subarrays and prefix-style problems: [`kadaneAlgorithm.java`](./kadaneAlgorithm.java), [`LongestSubarrayWithsumK.java`](./LongestSubarrayWithsumK.java), [`countSubarraysWithGivenXorK.java`](./countSubarraysWithGivenXorK.java), [`trapping_rainwater.java`](./trapping_rainwater.java)
+## Greedy Algorithms
+- [ ] Assign Cookies
+- [ ] Lemonade Change
+- [ ] Fractional Knapsack
+- [ ] Jump Game I
+- [ ] Shortest Job First
+- [ ] Job Sequencing Problem
+- [ ] N Meetings in One Room
+- [ ] Non-Overlapping Intervals
+- [ ] Insert Interval
+- [ ] Merge Intervals
+- [ ] Minimum Number of Platforms Required for a Railway
+- [ ] Valid Parenthesis Checker
+- [ ] Candy
+- [ ] Jump Game II
 
-Sorting: [`bubbleSort.java`](./bubbleSort.java), [`selectionSort.java`](./selectionSort.java), [`insertionSort.java`](./insertionSort.java), [`mergeSort.java`](./mergeSort.java), [`quickSortt.java`](./quickSortt.java)
+## Sliding Window / Two Pointer
+- [ ] Maximum Points You Can Obtain From Cards
+- [ ] Longest Substring Without Repeating Characters
+- [ ] Max Consecutive Ones III
+- [ ] Fruit Into Baskets
+- [ ] Longest Substring with at Most K Distinct Characters
+- [ ] Longest Repeating Character Replacement
+- [ ] Minimum Window Substring
+- [ ] Minimum Window Subsequence
+- [ ] Number of Substrings Containing All Three Characters
+- [ ] Binary Subarrays with Sum
+- [ ] Count Number of Nice Subarrays
+- [ ] Subarrays with K Different Integers
 
-### Binary search
+## Stack / Queue
+- [ ] Implement Stack Using Arrays
+- [ ] Implement Queue Using Arrays
+- [ ] Implement Stack Using Queue
+- [ ] Implement Queue Using Stack
+- [ ] Implement Stack Using Linked List
+- [ ] Implement Queue Using Linked List
+- [ ] Balanced Parentheses
+- [ ] Infix to Postfix Conversion
+- [ ] Infix to Prefix Conversion
+- [ ] Prefix to Infix Conversion
+- [ ] Prefix to Postfix Conversion
+- [ ] Postfix to Infix Conversion
+- [ ] Postfix to Prefix Conversion
+- [ ] Next Greater Element
+- [ ] Next Greater Element II
+- [ ] Asteroid Collision
+- [ ] Sum of Subarray Minimums
+- [ ] Sum of Subarray Ranges
+- [ ] Remove K Digits
+- [ ] Next Smaller Element
+- [ ] Implement Min Stack
+- [ ] Sliding Window Maximum
+- [x] Trapping Rainwater
+- [ ] Largest Rectangle in a Histogram
+- [ ] Maximal Rectangle
+- [ ] Stock Span Problem
+- [ ] Celebrity Problem
+- [ ] LRU Cache
+- [ ] LFU Cache
+- [ ] Number of Greater Elements to the Right
 
-Basic bounds and positions: [`lowerBound.java`](./lowerBound.java), [`upperBound.java`](./upperBound.java), [`searchInsertPostion.java`](./searchInsertPostion.java), [`firstAndLastOccurence.java`](./firstAndLastOccurence.java)
+## Binary Trees
+- [ ] Inorder Traversal
+- [ ] Preorder Traversal
+- [ ] Postorder Traversal
+- [ ] Level Order Traversal
+- [ ] Preorder, Postorder and Inorder in One Traversal
+- [ ] Maximum Depth in Binary Tree
+- [ ] Check If Two Trees Are Identical
+- [ ] Check for Balanced Binary Tree
+- [ ] Diameter of Binary Tree
+- [ ] Maximum Path Sum
+- [ ] Check for Symmetric Binary Tree
+- [ ] Children Sum Property in Binary Tree
+- [ ] Zigzag or Spiral Traversal
+- [ ] Boundary Traversal
+- [ ] Vertical Order Traversal
+- [ ] Top View of Binary Tree
+- [ ] Bottom View of Binary Tree
+- [ ] Right and Left View of Binary Tree
+- [ ] Print Root-to-Leaf Path in Binary Tree
+- [ ] LCA in Binary Tree
+- [ ] Maximum Width of Binary Tree
+- [ ] Print All Nodes at Distance K in Binary Tree
+- [ ] Minimum Time to Burn Binary Tree From a Given Node
+- [ ] Count Total Nodes in a Complete Binary Tree
+- [ ] Flatten Binary Tree to Linked List
+- [ ] Requirements to Construct a Unique Binary Tree
+- [ ] Construct a Binary Tree From Preorder and Inorder
+- [ ] Construct a Binary Tree From Postorder and Inorder
+- [ ] Serialize and Deserialize Binary Tree
+- [ ] Morris Inorder Traversal
+- [ ] Morris Preorder Traversal
 
-Rotated arrays and peaks: [`searchInRotateSortedArray_I.java`](./searchInRotateSortedArray_I.java), [`searchInRotatedSortedArray_II.java`](./searchInRotatedSortedArray_II.java), [`findMinimumInRotatedSortedArray.java`](./findMinimumInRotatedSortedArray.java), [`findPeakElement.java`](./findPeakElement.java)
+## Binary Search Trees
+- [ ] Search in BST
+- [ ] Floor and Ceil in a BST
+- [ ] Minimum and Maximum in BST
+- [ ] Insert a Given Node in BST
+- [ ] Delete a Node in BST
+- [ ] Kth Smallest and Largest Element in BST
+- [ ] Check If a Tree Is a BST
+- [ ] LCA in BST
+- [ ] Construct a BST From Preorder Traversal
+- [ ] Inorder Successor and Predecessor in BST
+- [ ] BST Iterator
+- [ ] Two Sum in BST
+- [ ] Correct BST with Two Nodes Swapped
+- [ ] Largest BST in Binary Tree
 
-Binary search on the answer: [`kokoEatingBananas.java`](./kokoEatingBananas.java), [`minimumDaysToMakeMBouquets.java`](./minimumDaysToMakeMBouquets.java), [`bookAllocation.java`](./bookAllocation.java), [`aggressiveCows.java`](./aggressiveCows.java)
+## Heaps
+- [ ] Heapify Algorithm
+- [ ] Build Heap From a Given Array
+- [ ] Implement Min Heap
+- [ ] Implement Max Heap
+- [ ] Check If an Array Represents a Min Heap
+- [ ] Convert Min Heap to Max Heap
+- [ ] Heap Sort
+- [ ] Kth Largest Element in an Array
+- [ ] Kth Largest Element in a Stream of Running Integers
+- [ ] Merge K Sorted Lists
+- [ ] Replace Elements by Their Rank
+- [ ] Task Scheduler
+- [ ] Hand of Straights
+- [ ] Design Twitter
+- [ ] Minimum Cost to Connect Sticks
+- [ ] Maximum Sum Combination
+- [ ] Find Median From Data Stream
+- [ ] Top K Frequent Elements
 
-### Strings and matrices
+## Graphs
+- [ ] Number of Provinces
+- [ ] Number of Islands
+- [ ] Flood Fill Algorithm
+- [ ] Number of Enclaves
+- [ ] Rotten Oranges
+- [ ] Distance of Nearest Cell Having One
+- [ ] Surrounded Regions
+- [ ] Number of Distinct Islands
+- [ ] Detect a Cycle in an Undirected Graph
+- [ ] Bipartite Graph
+- [ ] Topological Sort (Kahn's Algorithm)
+- [ ] Detect a Cycle in a Directed Graph
+- [ ] Find Eventual Safe States
+- [ ] Course Schedule I
+- [ ] Course Schedule II
+- [ ] Alien Dictionary
+- [ ] Shortest Path in a DAG
+- [ ] Shortest Path in Undirected Graph with Unit Weights
+- [ ] Word Ladder I
+- [ ] Word Ladder II
+- [ ] Dijkstra's Algorithm
+- [ ] Print Shortest Path
+- [ ] Shortest Path with Minimum Effort
+- [ ] Path with Minimum Effort
+- [ ] Cheapest Flight Within K Stops
+- [ ] Minimum Multiplications to Reach End
+- [ ] Number of Ways to Arrive at Destination
+- [ ] Bellman-Ford Algorithm
+- [ ] Floyd-Warshall Algorithm
+- [ ] Find the City with the Smallest Number of Neighbors
+- [ ] Network Delay Time
+- [ ] Swim in Rising Water
+- [ ] Disjoint Set
+- [ ] Find the MST Weight
+- [ ] Number of Operations to Make Network Connected
+- [ ] Accounts Merge
+- [ ] Number of Islands II
+- [ ] Making a Large Island
+- [ ] Most Stones Removed with Same Row or Column
+- [ ] Kosaraju's Algorithm
+- [ ] Bridges in Graph
+- [ ] Articulation Point in Graph
 
-Strings: [`longestCommonPrefix.java`](./longestCommonPrefix.java), [`isomorphicString.java`](./isomorphicString.java), [`String_Compression.java`](./String_Compression.java), [`rotateString.java`](./rotateString.java)
+## Dynamic Programming
+- [ ] Climbing Stairs
+- [ ] Frog Jump
+- [ ] Frog Jump with K Distances
+- [ ] Maximum Sum of Non-Adjacent Elements
+- [ ] House Robber
+- [ ] Ninja's Training
+- [ ] Grid Unique Paths
+- [ ] Unique Paths II
+- [ ] Minimum Falling Path Sum
+- [ ] Triangle
+- [ ] Cherry Pickup II
+- [ ] Count Square Submatrices with All Ones
+- [ ] Best Time to Buy and Sell Stock
+- [ ] Best Time to Buy and Sell Stock II
+- [ ] Best Time to Buy and Sell Stock III
+- [ ] Best Time to Buy and Sell Stock IV
+- [ ] Best Time to Buy and Sell Stock with Transaction Fee
+- [ ] Best Time to Buy and Sell Stock with Cooldown
+- [ ] Subset Sum Equals Target
+- [ ] Partition Equal Subset Sum
+- [ ] Partition a Set Into Two Subsets with Minimum Absolute Sum Difference
+- [ ] Count Subsets with Sum K
+- [ ] Count Partitions with Given Difference
+- [ ] 0/1 Knapsack
+- [ ] Minimum Coins
+- [ ] Target Sum
+- [ ] Coin Change II
+- [ ] Unbounded Knapsack
+- [ ] Rod Cutting Problem
+- [ ] Longest Increasing Subsequence
+- [ ] Print Longest Increasing Subsequence
+- [ ] Largest Divisible Subset
+- [ ] Longest String Chain
+- [ ] Longest Bitonic Subsequence
+- [ ] Number of Longest Increasing Subsequences
+- [ ] Longest Common Subsequence
+- [ ] Longest Common Substring
+- [ ] Longest Palindromic Subsequence
+- [ ] Minimum Insertions to Make String Palindrome
+- [ ] Minimum Insertions or Deletions to Convert String A to B
+- [ ] Shortest Common Supersequence
+- [ ] Distinct Subsequences
+- [ ] Edit Distance
+- [ ] Wildcard Matching
+- [ ] Word Break
+- [ ] Count Palindromic Subsequences
+- [ ] Matrix Chain Multiplication
+- [ ] Burst Balloons
+- [ ] Palindrome Partitioning II
+- [ ] Partition Array for Maximum Sum
+- [ ] Minimum Cost to Cut the Stick
+- [ ] Different Ways to Evaluate a Boolean Expression
 
-Matrices: [`searchIn2DMatrix.java`](./searchIn2DMatrix.java), [`searchIn2DMatrix_II.java`](./searchIn2DMatrix_II.java), [`printTheMatrixInSpiralOrders.java`](./printTheMatrixInSpiralOrders.java), [`rotateImageBy90Degrees.java`](./rotateImageBy90Degrees.java)
+## Tries
+- [ ] Trie Implementation and Operations
+- [ ] Trie Implementation and Advanced Operations
+- [ ] Longest Word with All Prefixes
+- [ ] Number of Distinct Substrings in a String
+- [ ] Maximum XOR of Two Numbers in an Array
+- [ ] Maximum XOR with an Element From an Array
 
-### Recursion and backtracking
+## Strings (Advanced Algo)
+- [ ] Reverse Every Word in a String
+- [ ] Minimum Number of Bracket Reversals to Balance an Expression
+- [ ] Count and Say
+- [ ] Rabin-Karp Algorithm
+- [ ] Z Function
+- [ ] KMP Algorithm or LPS Array
+- [ ] Shortest Palindrome
+- [ ] Longest Happy Prefix
 
-Recursion exercises: [`checkifArraySortedRecursion.java`](./checkifArraySortedRecursion.java), [`reverseArrayRecursion.java`](./reverseArrayRecursion.java), [`factorialOfAGivenNumberRecursion.java`](./factorialOfAGivenNumberRecursion.java)
-
-Subsets and combinations: [`subsets.java`](./subsets.java), [`subsets_II.java`](./subsets_II.java), [`combinationSSum.java`](./combinationSSum.java), [`combinationSum_II.java`](./combinationSum_II.java), [`combinationSum_III.java`](./combinationSum_III.java)
-
-Grid and board search: [`wordSearch.java`](./wordSearch.java), [`ratInMaze.java`](./ratInMaze.java), [`NQueens.java`](./NQueens.java)
-
-## Practice order
-
-Use this as a route through the files, not as a claim that a topic is finished:
-
-1. Java basics, arrays, and simple loops.
-2. Sorting, frequency counting, and two-pointer problems.
-3. Binary search on sorted arrays, then binary search on an answer.
-4. Strings and 2D arrays.
-5. Recursion, subsets/combinations, then backtracking.
-6. Revisit problems without looking at the code; write down the idea and time/space complexity.
-
-When solving a LeetCode problem, compare the constraints and required method signature with the local file. The local code is practice material; it may need changes for edge cases or the judge's expected class/signature.
-
-## Problem links I use
-
-- [LeetCode problem set](https://leetcode.com/problemset/) — find problems and revisit statements.
-- [Striver A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) — use as a topic-by-topic checklist.
-- [Java documentation](https://docs.oracle.com/en/java/) — look up Java APIs and language behavior.
-
-For a specific solution, search this folder by its problem name. Many filenames are named after the problem rather than grouped into subfolders.
+## Maths
+- [ ] Print All Primes Till N
+- [ ] Prime Factorisation of a Number
+- [ ] Count Primes in Range L to R
