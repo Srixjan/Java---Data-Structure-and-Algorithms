@@ -2,7 +2,7 @@
 
 **121 / 450 done · 329 left**
 
-Checked means a matching Java source file is present in this folder.
+Checked means a matching Java source file is present in one of the topic folders.
 
 ## Beginner Problems
 - [ ] Pattern 1
