@@ -44,7 +44,7 @@ public class searchInLinkedList {
 
         int target = 3;
         if (searchElement(head, target)) {
-            System.out.println("Element " + target + " found in the linked list.");
+            System.out.println("Elements " + target + " found in the linked list.");
         } else {
             System.out.println("Element " + target + " not found in the linked list.");
         }
