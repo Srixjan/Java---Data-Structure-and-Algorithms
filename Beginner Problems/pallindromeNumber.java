@@ -18,6 +18,6 @@ public class pallindromeNumber {
         int n = 1221;
         pallindromeNumber pal = new pallindromeNumber();
         boolean result = pal.isPallindrome(n);
-        System.out.print(result);
+        System.out.println(result);
     }
 }
