@@ -1,17 +1,7 @@
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int value) {
-        this.val = value;
-        this.next = null;
-    }
-}
-
 public class searchInLL {
     public boolean searchKey(ListNode head, int key) {
         while(head != null) {
-            if (head.val == key) {
+            if (head.data == key) {
                 return true;
             }
 
@@ -21,9 +11,7 @@ public class searchInLL {
     }
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(3);
-        head.next.next = new ListNode(5);
+        ListNode head = LinkedListUtils.fromArray(new int[] {1, 3, 5});
 
         searchInLL search = new searchInLL();
         System.out.println(search.searchKey(head, 3)); // Output: true

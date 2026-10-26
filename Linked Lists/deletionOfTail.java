@@ -1,11 +1,3 @@
-class ListNode{
-    public int data;
-    public ListNode next;
-    ListNode() { data = 0; next = null; }
-    ListNode(int x) { data = x; next = null; }
-    ListNode(int x, ListNode next) { data = x; this.next = next; }
-}
-
 public class deletionOfTail {
     public ListNode deleteTail(ListNode head) {
         if (head == null || head.next == null) {
@@ -18,15 +10,6 @@ public class deletionOfTail {
         }
         temp.next = null;
         return head;
-    }
-
-    private static void printList(ListNode head) {
-        ListNode current = head;
-        while (current != null) {
-            System.out.print(current.data + " ");
-            current = current.next;
-        }
-        System.out.println();
     }
 
     private static ListNode insertAtHead(ListNode head, int data) {
@@ -42,14 +25,14 @@ public class deletionOfTail {
         head = insertAtHead(head, 1);
  
         System.out.println("Original list: ");
-        printList(head);
+        LinkedListUtils.print(head);
  
         deletionOfTail del = new deletionOfTail();
  
         head = del.deleteTail(head);
  
         System.out.println("List after deleting tail: ");
-        printList(head);
+        LinkedListUtils.print(head);
     }
 
 

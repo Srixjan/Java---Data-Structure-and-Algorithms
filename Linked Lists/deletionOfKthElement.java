@@ -1,11 +1,3 @@
-class ListNode{
-    public int data;
-    public ListNode next;
-    ListNode() { data = 0; next = null; }
-    ListNode(int x) { data = x; next = null; }
-    ListNode(int x, ListNode next) { data = x; this.next = next; }
-}
-
 public class deletionOfKthElement {
     public ListNode deleteKthNode(ListNode head, int k) {
        if (head == null) 
@@ -32,25 +24,13 @@ public class deletionOfKthElement {
        return head;
     }
 
-    private static void printLL(ListNode head) {
-        ListNode current = head;
-        while (current != null) {
-            System.out.print(current.data + " ");
-            current = current.next;
-        }
-        System.out.println();
-    }
-
     public static void main(String[] args) {
         int[] arr = {12, 5, 8, 7};
  
-        ListNode head = new ListNode(arr[0]);
-        head.next = new ListNode(arr[1]);
-        head.next.next = new ListNode(arr[2]);
-        head.next.next.next = new ListNode(arr[3]);
+        ListNode head = LinkedListUtils.fromArray(arr);
  
         System.out.print("Original list: ");
-        printLL(head);
+        LinkedListUtils.print(head);
 
         deletionOfKthElement delK = new deletionOfKthElement();
  
@@ -58,6 +38,6 @@ public class deletionOfKthElement {
         head = delK.deleteKthNode(head, k);
  
         System.out.print("List after deleting the kth node: ");
-        printLL(head);
+        LinkedListUtils.print(head);
     }
 }
