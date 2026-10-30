@@ -43,7 +43,7 @@ public class insertBeforeKthNodeInDLL {
         insertBeforeKthNodeInDLL solution = new insertBeforeKthNodeInDLL();
         head = solution.insertBeforeKthPosition(head, value, k);
 
-        System.out.print("Modified list: ");
+        System.out.print("Modified ljjjist: ");
         LinkedListUtils.print(head);
     }
 }
